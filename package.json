@@ -4,7 +4,7 @@
   "description": "testing CSP headers",
   "main": "main.js",
   "scripts": {
-    "start": "node main"
+    "start": "PORT=3000 node main"
   },
   "repository": {
     "type": "git",
