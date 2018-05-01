@@ -1,10 +1,10 @@
 <html>
   <head>
     <title>CSP test</title>
-    <meta http-equiv="Content-Security-Policy" content="img-src 'self' https://*.google-analytics.com data:; font-src 'self' data:; child-src 'none'; connect-src 'self' https://*.google-analytics.com ws:;"; />
+    <meta http-equiv="Content-Security-Policy" content="img-src 'self' https://*.google-analytics.com data:; font-src 'self' data:; child-src 'none'; connect-src 'self' ws://localhost https://*.google-analytics.com;"; />
   </head>
   <body>
-    <p>allow connect to ws:</p>
+    <p>allow connect to ws:localhost</p>
 
     <img></img>
 
