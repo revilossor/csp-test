@@ -2,7 +2,6 @@ document.addEventListener('securitypolicyviolation', function(e) {
   console.dir(e)
 })
 
-
 document.addEventListener('click', function(e) {
   if(window.fetch) {
     var myImage = document.querySelector('img');
