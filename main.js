@@ -4,4 +4,4 @@ const path = require('path');
 
 app.use(express.static(path.join(__dirname, './static')));
 
-app.listen(process.env.PORT, () => { console.log('app listening on port ' + process.env.PORT); });
+app.listen(process.env.PORT, () => { console.log('listening on port ' + process.env.PORT); });
